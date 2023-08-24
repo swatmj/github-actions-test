@@ -1,1 +1,3 @@
 branchName: 'feature/${issue.number}'
+autoCloseIssue: true
+defaultBranch: 'develop'
