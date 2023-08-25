@@ -1,4 +1,4 @@
-branchName: '${date}'
+branchName: '${steps.date.outputs.date}'
 defaultBranch: 'develop'
 autoCloseIssue: true
 
