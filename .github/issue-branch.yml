@@ -1,4 +1,6 @@
-branchName: ${%date}
+echo "::set-output name=date::$(date +'%Y%m%d')
+
+branchName: '${%date}'
 defaultBranch: 'develop'
 autoCloseIssue: true
 
