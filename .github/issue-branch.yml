@@ -4,7 +4,10 @@ autoCloseIssue: true
 branches:
   - label: feature
     prefix: feature/
+    name: 'feature/${issue.number}'
   - label: hotfix
     prefix: hotfix/
+    name: 'feature/${date}'
   - label: release
     prefix: release/
+    name: 'feature/${date}'
