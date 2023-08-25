@@ -1,4 +1,4 @@
-branchName: ${date}
+branchName: ${%date}
 defaultBranch: 'develop'
 autoCloseIssue: true
 
