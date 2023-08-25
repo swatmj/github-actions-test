@@ -20,7 +20,4 @@ jobs:
         
         - name: Get Current Date
           id: date
-          run: echo "name=date" >> $(date +'%Y%m%d')"
-          
-        - name: Echo Date
-          run: echo ${{ steps.Create_Issue_Branch.outputs.date }}
+          run: echo "name=branchName" >> $(date +'%Y%m%d')"
