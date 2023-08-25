@@ -1,4 +1,4 @@
-branchName: ${process.env.DATE}
+branchName: ${steps.Get_current_date.outputs.date}
 defaultBranch: 'develop'
 autoCloseIssue: true
 
