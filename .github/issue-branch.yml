@@ -1,4 +1,4 @@
-branchName: ${date +"%G%m%e"}
+branchName: ${process.env.DATE}
 defaultBranch: 'develop'
 autoCloseIssue: true
 
