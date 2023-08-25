@@ -1,4 +1,4 @@
-branchName: ${steps.Get_current_date.outputs.date}
+branchName: ${date}
 defaultBranch: 'develop'
 autoCloseIssue: true
 
