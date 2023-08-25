@@ -1,4 +1,4 @@
-branchName: '${issue.number}'
+branchName: date +"%G%m%e"
 defaultBranch: 'develop'
 autoCloseIssue: true
 
