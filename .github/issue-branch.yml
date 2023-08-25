@@ -1,4 +1,4 @@
-branchName: 'test/${issue.number}'
+branchName: '${issue.number}'
 defaultBranch: 'develop'
 autoCloseIssue: true
 
