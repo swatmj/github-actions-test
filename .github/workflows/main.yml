@@ -20,7 +20,7 @@ jobs:
         
         - name: Get Current Date
           id: date
-          run: echo "::set-output name=date::$(date +'%Y%m%d')"
-      
+          run: echo "name=date" >> $(date +'%Y%m%d')"
+          
         - name: Echo Date
           run: echo ${{ steps.Create_Issue_Branch.outputs.date }}
