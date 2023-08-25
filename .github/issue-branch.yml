@@ -1,1 +1,11 @@
-branchName: 'feature/${issue.number}'
+branchName: '${prefix}/${issue.number}'
+defaultBranch: 'develop'
+autoCloseIssue: true
+
+branches:
+  - label: feature
+    prefix: feature/
+  - label: hotfix
+    prefix: hotfix/
+  - label: release
+    prefix: release/
