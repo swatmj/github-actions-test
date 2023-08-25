@@ -18,9 +18,9 @@ jobs:
           env:
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}              
         
-        - name: Get current date
+        - name: Get Current Date
           id: date
           run: echo "::set-output name=date::$(date +'%Y%m%d')"
       
-        - name: Echo branch name
-          run: echo ${{ steps.Create_Issue_Branch.outputs.branchName }}
+        - name: Echo Date
+          run: echo ${{ steps.Create_Issue_Branch.outputs.date }}
